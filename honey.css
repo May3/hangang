@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,600;1,900&family=Source+Sans+Pro&display=swap');
+
+.sbgesamt {
+    padding:0px; 
+    width: 650px;
+    font-size: 12px;
+    color: #3f3f3f;
+    background-color: #FEE8A1;
+}
+
+.sbname {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 63px;
+    color: #EDA714;
+    margin-bottom: -97px;
+    margin-left: 20px;
+    position: relative;
+    z-index:999;
+    text-align: left;
+    text-shadow:  1px  1px 1px #fff,
+                  1px -1px 1px #fff,
+                 -1px  1px 1px #fff,
+                 -1px -1px 1px #fff;
+}
+
+.list {
+    display: flex;
+    max-width: 650px;
+}
+
+.list-item {
+    background-color: #fff;
+    display: flex;
+    /*padding: 0.5em;*/
+    width: 550px;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.list-special {
+    background-image: url('https://i.ibb.co/fSCJkt5/orange-honeycomb-seamless-pattern-102902-351.webp');
+    display: flex;
+    /*padding: 0.5em;*/
+    width: 100px;
+    margin-right: 1%;
+    margin-left: -30px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.list-content {
+    width: 100%;
+}
+
+.sbImage {
+    border: 5px solid #EDA714;
+    padding-right: 0px;
+    margin: 0px 5px;
+    padding: 1px;
+    height: 75px;
+    width: 75px;
+    background-color: #F8E6A4;
+    object-fit: cover;
+}
+
+.sbBox {
+    width: auto;
+    margin: auto;
+    background-color: #fff;
+}
+
+.sbBox b {
+    color: #EDA714;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    font-family: 'Unna', serif;
+    border: 1px solid #EDA714;
+    padding: 0px 3px 0px 3px;
+    text-transform: uppercase;
+}
+
+.sbBox table {
+    color: #3f3f3f;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+}
+
+.sbBox i {
+    color: #e3ba7d;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    font-family: 'Unna', serif;
+    font-style: bold;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.sbQuote {
+    font-family: 'Unna', serif; 
+    font-size: 15px;   
+    text-transform: uppercase; 
+    line-height: 19px;
+    letter-spacing: 0.05em;  
+    color: #e3ba7d;
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid #EDA714 0.5px;
+    border-top: solid #EDA714 0.5px;
+    width: 500px;
+}
+
+.sbQuote2 {
+    color: #E59A11;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    font-family: 'Unna', serif;
+    border: 1px solid #fff;
+    padding: 0px 3px 0px 3px;
+    text-transform: uppercase;
+    width: 250px;
+}
